@@ -32,8 +32,8 @@ body {
 }
 
 .light.on {
-  background-color: gold;
-  box-shadow: 0 0 10px gold;
+  background-color: white;
+  box-shadow: 0 0 10px white;
 }
 
 .light.off {
