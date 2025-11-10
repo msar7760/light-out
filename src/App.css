@@ -31,7 +31,6 @@ body {
   transition: background 0.2s;
 }
 
-// changes colors
 .light.on {
   background-color: white;
   box-shadow: 0 0 10px white;
