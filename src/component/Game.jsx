@@ -62,7 +62,7 @@ export default function Game() {
             <h1>Lights Out Puzzle</h1>
             <Grid lights={lights} onLightClick={handleLightClick} />
             <div className="info">
-                {won ? <p className="win">🎉 You Win!</p> : <p>Moves: {step}</p>}
+                {won ? <p className="win">You Win!</p> : <p>Moves: {step}</p>}
             </div>
             <div className="buttons">
                 <button onClick={handleReset}>New Game</button>
